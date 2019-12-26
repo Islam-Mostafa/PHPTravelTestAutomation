@@ -1,0 +1,37 @@
+[
+  {
+    "name": "FirstName",
+    "locator": "name",
+    "value": "firstname"
+  },
+  {
+    "name": "LastName",
+    "locator": "name",
+    "value": "lastname"
+  },
+  {
+    "name": "MobileNumber",
+    "locator": "name",
+    "value": "phone"
+  },
+  {
+    "name": "Email",
+    "locator": "name",
+    "value": "email"
+  },
+  {
+    "name": "Password",
+    "locator": "name",
+    "value": "password"
+  },
+  {
+    "name": "ConfirmPassword",
+    "locator": "name",
+    "value": "confirmpassword"
+  },
+  {
+    "name": "SignUpBtn",
+    "locator": "xpath",
+    "value": "//form[@id='headersignupform']//button[@class='signupbtn btn_full btn btn-success btn-block btn-lg']"
+  }
+]

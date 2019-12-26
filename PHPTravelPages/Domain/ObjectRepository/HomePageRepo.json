@@ -1,0 +1,7 @@
+[
+  {
+    "name": "UserName",
+    "locator": "xpath",
+    "value": "//div[@class='dropdown dropdown-login dropdown-tab']//a[@id='dropdownCurrency']"
+  }
+]
