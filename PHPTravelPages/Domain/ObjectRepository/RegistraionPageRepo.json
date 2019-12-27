@@ -33,5 +33,10 @@
     "name": "SignUpBtn",
     "locator": "xpath",
     "value": "//form[@id='headersignupform']//button[@class='signupbtn btn_full btn btn-success btn-block btn-lg']"
+  },
+  {
+    "name": "ValidationMessage",
+    "locator": "xpath",
+    "value": "//form[@id='headersignupform']//div[@class='resultsignup']//div[@class='alert alert-danger']"
   }
 ]

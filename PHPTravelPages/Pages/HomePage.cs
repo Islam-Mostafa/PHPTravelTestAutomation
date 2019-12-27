@@ -38,5 +38,11 @@ namespace PHPTravelPages.Pages
 
 
         }
+
+        public void Logout()
+        {
+            Driver.WebDriver.Navigate().GoToUrl("https://www.phptravels.net/account/logout/");
+
+        }
     }
 }

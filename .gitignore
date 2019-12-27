@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AutomationFramework/bin/Debug
+/AutomationFramework/obj/Debug
+/AutomationFramework/obj/Debug
+/packages
+/PHPTravelPages/bin/Debug
+/PHPTravelPages/obj/Debug
+/PHPTravelTests/bin/Debug
+/PHPTravelTests/bin/Debug

@@ -3,5 +3,15 @@
     "name": "UserName",
     "locator": "xpath",
     "value": "//div[@class='dropdown dropdown-login dropdown-tab']//a[@id='dropdownCurrency']"
+  },
+  {
+    "name": "LoginDropDown",
+    "locator": "xpath",
+    "value": "//div[@class='dropdown dropdown-login dropdown-tab']"
+  },
+  {
+    "name": "LogoutLink",
+    "locator": "xpath",
+    "value": "//div[@class='dropdown dropdown-login dropdown-tab']"
   }
 ]

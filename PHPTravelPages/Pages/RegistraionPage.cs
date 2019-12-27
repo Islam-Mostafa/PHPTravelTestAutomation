@@ -70,5 +70,12 @@ namespace PHPTravelPages.Pages
             IWebElement btn = Driver.WebDriver.InspectElement(btn_locator, _test);
             btn.Click();
         }
+        public string Get_ValidationMessage()
+        {
+            var msg_locator = _parser.GetElementByName("ValidationMessage");
+            Driver.WebDriver.ScrollToElement(msg_locator, 10);
+            IWebElement msg_lbl = Driver.WebDriver.InspectElement(msg_locator, _test);
+          return msg_lbl.Text;
+        }
     }
 }
